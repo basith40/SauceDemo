@@ -7,12 +7,14 @@ import org.openqa.selenium.WebElement;
 import amazonUtility.AmazonPageBase;
 
 public class AmazonItemsCartAssertingPage extends AmazonPageBase{
+	
+	private By cart = By.cssSelector("#nav-cart");
+	private By itemAssert = By.xpath("//*[@data-name='Subtotals']");
 
 	public AmazonItemsCartAssertingPage(WebDriver driver) {
 		super(driver);
 	}
-	By cart = By.cssSelector("#nav-cart");
-	By itemAssert = By.xpath("//*[@data-name='Subtotals']");
+	
 	
 	public WebElement chackCart() {
 		return driver.findElement(cart);

@@ -8,15 +8,17 @@ import org.openqa.selenium.support.PageFactory;
 import amazonUtility.AmazonPageBase;
 
 public class AmazonItemReducePage extends AmazonPageBase{
+	
+	@FindBy(css = "#a-autoid-1-announce")
+	WebElement quentityTag;
+	@FindBy(xpath = "//*[@class='a-popover-wrapper']/div/ul/li[2]")
+	WebElement quantityNumber;
 
 	public AmazonItemReducePage(WebDriver driver) {
 		super(driver);
 		PageFactory.initElements(driver, this);
 	}
-	@FindBy(css = "#a-autoid-1-announce")
-	WebElement quentityTag;
-	@FindBy(xpath = "//*[@class='a-popover-wrapper']/div/ul/li[2]")
-	WebElement quantityNumber;
+	
 	
 	
 	public WebElement qTag() {
