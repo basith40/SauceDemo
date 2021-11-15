@@ -1,0 +1,5 @@
+11:00:31.792 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - Search hats for men
+11:00:39.715 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - Add the first hat appearing to Cart
+22:33:56.860 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - Search hats for men
+22:34:03.519 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - Add the first hat appearing to Cart
+22:35:56.739 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - Search hats for men

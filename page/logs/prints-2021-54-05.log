@@ -1,0 +1,5 @@
+16:37:19.703 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - Assert that the total price and quantity has been correctly changed
+20:57:20.347 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - Search hats for men
+20:57:27.273 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - Add the first hat appearing to Cart
+21:04:00.595 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - Search hats for men
+21:04:07.392 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - Add the first hat appearing to Cart
